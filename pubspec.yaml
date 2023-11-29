@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  pin_code_fields:
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +71,9 @@ flutter:
     - assets/Foodizone.png
     - assets/Path 2697.png
     - assets/Path 2698.png
+    - assets/Group 324.png
+    - assets/logo.png
+    - assets/icon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

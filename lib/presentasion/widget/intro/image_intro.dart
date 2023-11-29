@@ -6,12 +6,13 @@ class ImageIntro extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHight = MediaQuery.of(context).size.height;
+    final screenWidth = MediaQuery.of(context).size.width;
     return Container(
       child: Image.asset(
         'assets/stupefied-handsome-male-driver-scooter-with-red-helmet-delivering-pizza-removebg.png',
-        // استبدل بمسار الصورة في مشروعك
-        width: 500,
-        height: 423,
+        width: screenWidth * 0.7,
+        height: screenHight * 0.5,
         fit: BoxFit.cover,
       ),
     );

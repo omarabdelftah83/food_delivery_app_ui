@@ -6,11 +6,13 @@ class Container2Intro extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHight = MediaQuery.of(context).size.height;
+    final screenWidth = MediaQuery.of(context).size.width;
     return Column(
       children: [
         Padding(
           padding: const EdgeInsets.only(
-            top: 740,
+            top: 690,
           ),
           child: Container(
             width: 350,
